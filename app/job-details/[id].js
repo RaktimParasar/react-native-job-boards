@@ -20,7 +20,7 @@ import {
 import { useFetch } from "../../hook/useFetch";
 import { COLORS, icons, SIZES } from "../../constants";
 
-const TABS = ["About", "Qualification", "Responsibilites"];
+const TABS = ["About", "Qualification", "Responsibilities"];
 
 const JobDetails = () => {
   const router = useRouter();
@@ -44,12 +44,17 @@ const JobDetails = () => {
             points={data[0].job_highlights?.Qualifications ?? ["N/A"]}
           />
         );
-        break;
       case "About":
         return (
           <JobAbout info={data[0].job_description ?? "No data provided"} />
         );
-      case "Responsibilites":
+      case "Responsibilities":
+        return (
+          <Specifics
+            title="Responsibilities"
+            points={data[0].job_highlights?.Responsibilities ?? ["N/A"]}
+          />
+        );
       default:
         break;
     }
