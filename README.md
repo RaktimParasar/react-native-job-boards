@@ -13,3 +13,13 @@ npx create-react-native-app -t with-router
 - [Expo Router: Docs](https://expo.github.io/router)
 - [Expo Router: Repo](https://github.com/expo/router)
 - [Request for Comments](https://github.com/expo/router/discussions/1)
+
+## 🥤 Todos
+
+- [ ] Menu feature
+- [ ] User Profile
+- [ ] User Auth
+- [ ] Landing screen
+- [ ] Share job-details apply page feature
+- [ ] Show all feature
+- [ ] Favourite job feature/store fav job to user-profile
