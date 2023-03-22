@@ -5,6 +5,19 @@
       "bundler": "metro"
     },
     "name": "react-native-jobs-board",
-    "slug": "react-native-jobs-board"
+    "slug": "react-native-jobs-board",
+    "extra": {
+      "eas": {
+        "projectId": "decf7f76-0a17-4967-b77a-693fe2956d77"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/decf7f76-0a17-4967-b77a-693fe2956d77"
+    },
+    "android": {},
+    "ios": {}
   }
 }
